@@ -69,4 +69,115 @@ display: flex;
   font-size: 13px;
 }
 
+.header-nav__background{
+  background-image: url('../img/BlackBackground-intro.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  width: 1000px;
+  height: 56px;
+}
 
+.header-nav__list{
+  text-transform: uppercase;
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin-left: 25px;
+  padding-top: 14px; 
+}
+
+.header-nav__list a{
+  text-decoration: none;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 25px;
+  font-size: 13px;
+  color: #fff;
+  position: relative;
+}
+
+.header-nav__list a:hover{
+  font-weight: bold;
+  color: #fff;
+}
+
+.header-nav__list li{
+  display: inline;
+}
+
+.header-nav__icon{
+  margin-left: 70px;
+}
+
+.header-white{
+  margin-top: 180px;
+  background: url('../img/Background-rectangle.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 172px;
+  width: 463px;
+  padding-top: 20px;
+}
+
+.header-white__title{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  bottom: 20px;
+  font-size: 22px;
+  color: #484c51;
+}
+
+.header-white__text{
+  padding: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 30px;
+  color: var(--color-text-gray);
+}
+
+.header-btn{
+  margin-top: 9px;
+}
+
+.header-btn__link {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  padding: .8em 1em calc(.8em + 3px);
+  background: #f17398;
+  box-shadow: 0 -3px #db577e inset;
+  transition: 0.2s;
+  font-size: 12px;
+} 
+.header-btn__link:hover { 
+  background: #db577e; 
+}
+.header-btn__link:active {
+  background: #da4571;
+  box-shadow: 0 3px #da4571 inset;
+}
+
+.header-search__icon{
+  background-image: url('../img/icon-search.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55px;
+  width: 55px;
+  margin-top: 170px;
+}
+
+.header-search__text{
+  margin-left: 55px;
+}
+
+.colortext{
+  text-transform: uppercase;
+  background-color: black;
+  width: 260px;
+  height: 55px;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+}
